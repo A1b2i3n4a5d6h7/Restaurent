@@ -1,0 +1,437 @@
+header {
+    width: 100%;
+    height: 100px;
+    margin-top: 0px;
+    background-color: rgb(218, 215, 215);
+    box-shadow: 1px 4px 1px;
+    position: sticky;
+    top: 0px;
+
+}
+
+.heading {
+    text-align: center;
+    font-size: 2em;
+    padding-top: 10px;
+
+}
+
+h2 span {
+
+    display: block;
+    font-size: .7rem;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 0.7em 0;
+    width: 105px;
+    position: relative;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin:auto ;
+    width: 50%;
+}
+
+.mail_button {
+
+    background-color: #fff;
+    color: #000;
+    border-radius: 6px;
+    /* border-bottom:2px solid #0ef  ; */
+    height: 30px;
+    width: 100px;
+    text-transform: uppercase;
+    text-shadow: #039fe7 2px 2px;
+    font-family: serif;
+    font-size: medium;
+
+}
+
+
+
+
+.banner {
+    height: 300px;
+    background: url(./images/banner1.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    position: relative;
+    
+    
+
+
+}
+
+.bannertext {
+    font-size: 1.5em;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    line-height: 1.5em;
+    padding-left: 5em;
+    padding-top: 3em;
+    position: absolute;
+}
+
+.banner_right {
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    left: 60%;
+
+}
+
+/* banner bottom images */
+.banner_bottom {
+    width: 100%; 
+    background-color: #ffffff;
+    display: flex;
+
+
+}
+
+/* .banner_bottom_img {
+width: 18%;
+} */
+
+
+    
+
+
+.banner_bottom_img h4 {
+    font-size: 1em;
+    color: #212121;   
+    
+}
+
+.banner_bottom_img p {
+    color: #999;
+    line-height: 1em;
+}
+
+.banner_bottom_img h4 span {
+    color: #cf0000;
+    font-size: 2em;
+}
+
+.img {
+    width:100%
+ 
+}
+
+.container h3 {
+    font-size: 2em;
+    color: #212121;
+    padding-left: 40px;
+}
+
+.img-responsive {
+    
+   
+    max-width: 100%;
+    height: 100%;
+
+}
+
+.banner_bottom_img {
+    display: flex1;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+
+   
+
+}
+
+/* //banner bottom images */
+/* price_menus */
+.prices_menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.price_menu_names{
+    margin: 2em 0 0;
+    width: 28%;
+}
+
+.price_menu_image{
+    
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.price_menu_names h3{
+    font-size: 1em;
+    color: #212121;
+    font-weight: 600;
+    margin-bottom: 1.5em;
+}
+
+.price_menu_names_left{
+    text-align: right;
+}
+price_menu_image img{
+    margin: 0 auto;
+}
+
+/* //price_menus */
+
+/* reservation */
+
+.reservation{
+    margin-top: 0px;
+    width: 100%;
+    height: 400px;
+    background-image: url("./images/6.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.book_title{
+    text-align:center;
+	font-size:2em;
+	color:#fff;
+    font-family: serif;
+    font-weight: 100;
+    
+	
+}
+
+.book_para{
+    text-align:center;
+	color:#fff;
+	margin:2em 0 0em;
+}
+
+.book_para span{
+    color: red;
+}
+
+.form{
+    text-align: center;
+    border-style: none;
+    size: 30px;
+}
+
+.btn{
+    border: 2px solid red;
+    height: 30px;
+    width: 70px;
+    border-radius: 6px;
+    margin-top: 90px;
+    background-color: red;
+}
+.form input{
+    margin-bottom: 20px;
+    width: 25%;
+}
+.form input[type="text"],
+.form input[type="tel"],
+.form input[type="date"],
+.form input[type="time"],
+.form select
+{
+    border:none;
+    border-bottom: 2px solid #a6af13;
+    outline: none;
+    height: 20px;
+
+}
+
+.form input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 20px;
+    color: #fff;
+    background: #262626;
+    cursor: pointer;
+}
+.form input[type="submit"]:hover{
+    background: red;
+}
+
+
+/* reservatio */
+/* gallery */
+.gallery_items{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 8px;
+    
+}
+
+.gallery_head{
+    color:#212121 !important;
+    font-family:serif;
+    font-size: 2em;
+    text-align: center;
+    font-weight: 70px;
+    border-bottom: 2px solid #222;
+    padding-bottom: 10px;
+    width: 50%;
+    margin-left: 25%;
+    
+
+}
+ .gallery_imgage{
+width: 30%;
+ 
+ }
+
+ img{
+    width: 100%;
+    height: 250px;
+ }
+
+ /* //gallery */
+
+ /* shefs */
+
+ .shef_details{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 8px;
+    
+}
+
+h4{
+    font-family: serif;
+    font-weight: 100;
+    text-align: center;
+
+}
+
+#chef{
+    text-align: center;
+    color: red;
+}
+
+.icon{
+    text-align: center;
+    gap: 10px;
+}
+
+/* //shefs */
+
+.container1{
+    background-color: #dfd9d9;
+    width: 100%;
+    height: 420px;
+}
+
+.info{
+    padding-left: 50px;
+}
+
+
+#loc_head{
+    text-align: start;
+    font-family: serif;
+    font-size: 1.5em;
+}
+
+.container1 .location_left{
+    float: left;
+    width: 50%;
+    
+   
+}
+
+.container1 .location_right{
+    float: right;
+    width: 50%;
+}
+
+.formbox input{
+    margin-bottom: 20px;
+    width: 50%;
+}
+.formbox input[type="text"],
+.formbox input[type="email"],
+.formbox input[type="textarea"]
+{
+    border: none;
+    border-bottom: 2px solid #a6af13;
+    outline: none;
+    height: 20px;
+}
+.formbox input[type="text"]:focus,
+.formbox input[type="email"]:focus,
+.formbox input[type="textarea"]:focus
+{
+border-bottom:2px solid #262626 ;
+
+}
+
+.formbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    color:#fff;
+    height: 20px;
+    background: #262626;
+    cursor: pointer;
+}
+
+/* //locaton */
+
+/* map */
+.map{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+/* //map */
+
+/* footer */
+.footer{
+    width:100%;
+    height: 300px;
+    background-color:#212121;
+
+}
+
+
+.facebook,.twitter,.google,.instagram{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 0;
+ 
+}
+
+#social{
+    margin: 0;
+    display: flex;
+    gap: 30px;
+    padding-top: 100px;
+    padding-left: 15%;
+    border-bottom: 2px solid #fff;
+    width: 25%;
+    margin-left: 25%;
+  
+}
+
+#foot{
+    color: #fff;
+   text-align: center;
+   padding-top: 100px;
+}
+
+a{
+    color: #a6af13;
+    font-size: large;
+}
+
